@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Happy Birthday Gangudi</title>
+    <style>
+        body {
+            font-family: 'Playfair Display', serif;
+            text-align: center;
+            background: linear-gradient(135deg, #f0f8ff, #e0ffff);
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            position: relative;
+            overflow-x: hidden;
+        }
+        .container {
+            padding: 60px 30px;
+            flex-grow: 1;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #4a6572;
+            font-size: 4em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+            margin-bottom: 30px;
+            animation: fadeIn 2s ease-out, bounce 2s infinite alternate;
+        }
+        p {
+            font-size: 1.8em;
+            line-height: 1.8;
+            color: #555;
+            animation: slideUp 1s ease-out forwards;
+            opacity: 0;
+        }
+        .message {
+            background-color: rgba(255, 250, 250, 0.8);
+            padding: 40px;
+            border-radius: 20px;
+            margin-bottom: 40px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            border: 1px solid #b0c4de;
+            animation: pulse 2s infinite alternate;
+        }
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            padding: 30px;
+            max-width: 900px;
+            margin: 30px auto;
+        }
+        .image-grid img {
+            width: 100%;
+            height: auto;
+            border: 4px solid #87ceeb;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+            transition: transform 0.3s ease-in-out;
+            animation: rotateScale 5s infinite alternate;
+        }
+        .image-grid img:hover {
+            transform: scale(1.08);
+        }
+        .footer {
+            background-color: #e0ffff;
+            padding: 25px;
+            color: #2f4f4f;
+            font-size: 1.2em;
+            text-align: center;
+            margin-top: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .instagram-link {
+            margin-top: 10px;
+        }
+        .instagram-link a {
+            color: #c13584;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .instagram-link a:hover {
+            text-decoration: underline;
+        }
+        .heart {
+            position: absolute;
+            font-size: 2em;
+            color: #87ceeb;
+            animation: heartFloat 4s linear infinite;
+        }
+        .balloon {
+            position: absolute;
+            width: 50px;
+            height: 70px;
+            border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+            background-color: pink;
+            animation: balloonFloat 6s linear infinite;
+        }
+        @keyframes balloonFloat {
+            0% { transform: translateY(100vh); opacity: 0; }
+            50% { opacity: 1; }
+            100% { transform: translateY(-100vh); opacity: 0; }
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+            40% {transform: translateY(-20px);}
+            60% {transform: translateY(-10px);}
+        }
+        @keyframes slideUp {
+            from { transform: translateY(50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        @keyframes pulse {
+            from { transform: scale(1); }
+            to { transform: scale(1.05); }
+        }
+        @keyframes rotateScale {
+            from { transform: rotate(0deg) scale(1); }
+            to { transform: rotate(5deg) scale(1.03); }
+        }
+        @keyframes heartFloat {
+            0% { transform: translateY(-100vh); opacity: 0;}
+            50% {opacity:1;}
+            100% { transform: translateY(100vh); opacity: 0; }
+        }
+        .confetti {
+            position: absolute;
+            width: 12px;
+            height: 12px;
+            background-color: gold;
+            border-radius: 50%;
+            animation: confettiFall 6s linear infinite;
+        }
+        @keyframes confettiFall {
+            0% { transform: translateY(-100vh) rotate(0deg); opacity: 1; }
+            100% { transform: translateY(100vh) rotate(360deg); opacity: 0; }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Happy Birthday, Gangudi! ✨</h1>
+        <p>Your presence is a gift that brightens every day.</p>
+
+        <div class="message">
+            <p>
+                My dearest Gangudi, on your special day, I wish you all the joy and happiness your heart can hold. Your kindness and love light up my world. Here's to celebrating you today and always.
+            </p>
+        </div>
+
+        <div class="message">
+            <p>
+                My dearest kukudi,<br><br>
+
+Today, I just want to take a moment to tell you how much you mean to me. You’ve filled my life with so much love, happiness, and meaning that words often fail to capture how I feel. <br>Your smile has this incredible power to brighten even the darkest of days, and your laughter is the sweetest melody that stays with me long after.
+
+You are not just my girlfriend—you are my confidant, my biggest cheerleader, and my greatest inspiration. With you, every moment feels like a treasure, every memory becomes a story worth telling, and every day feels extraordinary simply because you’re a part of it.<br>
+
+I want you to know that you are deeply loved and cherished, not just today but every single day. No matter what life brings, I’ll always be by your side, holding your hand and making sure you never feel alone. You are my heart, my soul, and my everything.
+
+Happy Birthday, my love! May today and every day be as beautiful and amazing as you are to me.<br><br>
+
+I Love you Forever ❤️❤️💖💖💖
+            </p>
+
+        </div>
+
+        <div class="instagram-link">
+            <a href="https://youtu.be/_51KXfwcPMs?si=AcZp2nCDMx408_aP"arget="_blank"> <h2>Click here and listen  ❤️ </h2></a>
+        </div>
+
+        <div class="instagram-link">
+            <a href="https://www.instagram.com/scapegoat910?igsh=MWh3MDQ2d3A1MW5wdw=="arget="_blank"> <h2>Click here and follow ❤️ </h2></a>
+        </div>
+
+        <footer class="footer">
+            Made with ❤️ by Bhavesh | Wishing you a day as lovely as you are!
+        </footer>
+    </div>
+    <script>
+        function createConfetti() {
+            for (let i = 0; i < 150; i++) {
+                const confetti = document.createElement('div');
+                confetti.classList.add('confetti');
+                confetti.style.left = Math.random() * 100 + 'vw';
+                confetti.style.animationDelay = Math.random() * 6 + 's';
+                confetti.style.backgroundColor = `hsl(${Math.random() * 360}, 100%, 50%)`;
+                document.body.appendChild(confetti);
+            }
+        }
+
+        function createHearts() {
+            for(let i=0; i < 20; i++){
+                const heart = document.createElement('div');
+                heart.classList.add('heart');
+                heart.textContent = "💖";
+                heart.style.left = Math.random() * 100 + 'vw';
+                heart.style.animationDelay = Math.random() * 4 + 's';
+                document.body.appendChild(heart);
+            }
+        }
+        createConfetti();
+        createHearts();
+    </script>
+</body>
+</html>
